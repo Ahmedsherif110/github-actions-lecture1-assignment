@@ -1,0 +1,20 @@
+name: multi shell hello
+
+on:
+    push: 
+
+jobs:
+    print-hello:
+        runs-on: ubuntu-latest
+        
+        steps:
+            - name: print hello from Bash shell
+              run: echo "hello from bash shell"
+              shell: bash
+            - name: print hello from PowerShell  shell
+              run: echo "hello from powerShell shell"
+              shell: pwsh
+            - name: print hello from Python shell
+              run: echo ("hello from python shell")
+              shell: python
+
