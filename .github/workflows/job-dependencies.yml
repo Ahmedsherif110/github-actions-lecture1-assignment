@@ -21,4 +21,4 @@ jobs:
         runs-on: ubuntu-latest
         needs: job_c
         steps:
-           - run: echo "Running Job D after job C ""               
+           - run: echo "Running Job D after job C "            
