@@ -12,9 +12,9 @@ jobs:
     
         steps:
             - name: step 1
-              run: echo " Step 1 value: $VAR_EXAMPLE "
+              run: echo "Step 1 value is $VAR_EXAMPLE "
         
             - name: step 2
               env:
                 VAR_EXAMPLE: step-level
-              run: echo " Step 2 value: $VAR_EXAMPLE "
+              run: echo " Step 2 value is $VAR_EXAMPLE "
