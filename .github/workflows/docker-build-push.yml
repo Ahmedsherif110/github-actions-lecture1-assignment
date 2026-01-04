@@ -21,7 +21,7 @@ jobs:
             - name:  Build and push Docker image
               uses:  docker/build-push-action@v6
               with:
-                context: .
+                context: ./home/rkha/Desktop/github-actions-lecture1-assignment/.github/workflows/Dockerfile
                 push: true
                 tags: |
                   docker.io/${{ vars.DOCKER_USERNAME }}/myapp:latest
