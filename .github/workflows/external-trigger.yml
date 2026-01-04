@@ -11,7 +11,7 @@ jobs:
       - name: print trigger source
         run: echo "Workflow triggered by external repository_dispatch event"
       
-        - name: Print payload value
-          run: echo "payload value.. ${{ github.event.client_payload.my_key }} "  
+      - name: Print payload value
+        run: echo "payload value.. ${{ github.event.client_payload.my_key }} "  
 
     
