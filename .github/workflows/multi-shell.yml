@@ -15,7 +15,7 @@ jobs:
               run: echo "hello from powerShell shell"
               shell: pwsh
             - name: print hello from Python shell
-              run: echo "hello from python shell"
+              run: echo ("hello from python shell")
               shell: python
 
         
